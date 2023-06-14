@@ -1,0 +1,38 @@
+
+body {
+    text-align: center;
+    margin: 10%;
+}
+
+.btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+
+    display: flex;
+    margin: 0 auto;
+    padding: 35px 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: beige;
+    background: hsl(0, 0%, 0%);
+    transition: 0.5s;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    box-shadow: 0 2px 6px 2px;
+    transform: scale(1.1);
+}
+
+.btn_text {
+    margin-right: 28px;
+}
+
+.btn_text {
+    margin-top: 4px;
+}
